@@ -5,7 +5,7 @@ const path = require('path');
 
 const postsFolder = require('./markdownReader');
 
-const reactBuildPath = '../../frontend/build';
+const reactBuildPath = '../md-blog-frontend/build';
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, reactBuildPath)));
